@@ -1,0 +1,32 @@
+{
+  "name": "sart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "./build/bundle.js",
+  "author": "Jamie Bailey <jamie.bailey.dev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/runtime": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.1.1",
+    "pkg": "^4.4.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "scripts": {
+    "build": "webpack --mode=production",
+    "watch": "webpack --watch --mode=development",
+    "dist": "pkg . --out-path=dist --target=win"
+  },
+  "dependencies": {
+    "iohook": "^0.6.2",
+    "tasklist": "^4.0.1"
+  },
+  "pkg": {
+    "scripts": "dist/**/*.js"
+  }
+}
