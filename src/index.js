@@ -22,7 +22,7 @@ output();
 
 // Check for executables
 let found = false;
-for(let exe in executables) {
+for(let exe of executables) {
     if(fs.existsSync(path.resolve(Game.getPath(), exe))) {
         found = true;
     }
