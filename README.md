@@ -1,7 +1,7 @@
 # SART (San Andreas Reset Tool)
 Simple command line application to reset the Grand Theft Auto: San Andreas process.
 
-## Install
+## Getting Started
 1. Download the latest release of this app and put it inside the root directory of Grand Theft Auto: San Andreas
 2. Run `sart.exe`
 3. Done, enjoy! :)
