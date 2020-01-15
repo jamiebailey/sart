@@ -9,7 +9,7 @@ const hotkeyCode = hotkey.charCodeAt(0);
 
 let output = () => {
     console.clear();
-    console.log('SAN ANDREAS RESET ' + pjson.version
+    console.log('SAN ANDREAS RESET TOOL' + pjson.version
             + '\n\nQuick reset tool for GTA San Andreas.'
             + '\n\ninfo:'
             + '\n\tGTA SA Install Path: ' + Game.getPath()
