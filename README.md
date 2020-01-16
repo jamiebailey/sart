@@ -1,4 +1,4 @@
-# SART (San Andreas Reset Tool)
+# SART (San Andreas Reset Tool) DEPRECATED
 Simple command line application to reset the Grand Theft Auto: San Andreas process.
 
 ## Getting Started
